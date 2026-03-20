@@ -1,0 +1,90 @@
+﻿Day,grp,BaySegment,Site,Species,Abundance,Appearance,Depth,EpiphyteDensity,SedimentType,AvgBld,ShtDen
+20,J's A,OTB,0,empty,0,,92,,,,
+20,Amen,OTB,0,Shoal,1,3,86,,,,
+20,Jay's B,OTB,0,Shoal,1,3,98,3,2,,
+20,Amen,OTB,0,Turtle,1,4,86,,,,
+20,Guppies,OTB,50,Manatee,0.5,3,79,1,3,,
+20,J's A,OTB,50,Manatee,2,3,75,,,,
+20,Amen,OTB,50,Shoal,1,2,79,1,3,16.6,
+20,Jay's B,OTB,50,Shoal,2,2,78,2,2,,
+20,Amen,OTB,100,Shoal,1,2,83,,,,
+20,Guppies,OTB,100,Shoal,0.1,1,89,3,2,17.2,
+20,Jay's B,OTB,100,Shoal,2,3,77,3,2,,
+20,J's A,OTB,100,Shoal,1,3,85,,,,
+20,Amen,OTB,150,Manatee,5,3,103,,,,
+20,Guppies,OTB,150,Manatee,2,3,100,3,2,,
+20,J's A,OTB,150,Manatee,5,1,104,,,,
+20,Amen,OTB,200,Manatee,4,1,106,,,,
+20,Guppies,OTB,200,Manatee,4,2,107,2,2,26,
+20,Amen,OTB,200,Shoal,4,2,106,,,,
+20,Guppies,OTB,200,Shoal,3,3,107,2,2,,
+20,J's A,OTB,200,Shoal,5,2,108,,,,
+20,Amen,OTB,200,Turtle,5,3,106,,,,
+20,Guppies,OTB,200,Turtle,2,3,107,4,2,,
+20,Amen,OTB,250,Manatee,4,1,114,,,,
+20,J's A,OTB,250,Manatee,4,2,118,,,,
+20,Amen,OTB,250,Shoal,1,4,114,,,,
+21,BullShark,OTB,0,Shoal,2,2,61,2,2,13.2,150
+21,Dolphins,OTB,0,Shoal,0.1,3,67,2,3,10.2,58.33333333
+21,ManateeCAJ,OTB,0,Shoal,1,2,59,3,1,12.8,100
+21,BullShark,OTB,50,Manatee,3,2,75,4,3,,
+21,BullShark,OTB,50,Shoal,2,2,75,4,3,,
+21,ManateeCAJ,OTB,50,Shoal,2,3,80,3,1,,
+21,BullShark,OTB,100,Manatee,1,2,60,2,2,12.8,625
+21,BullShark,OTB,100,Shoal,2,1,60,2,2,,
+21,MightyManatee,OTB,100,Shoal,1,2,56,2,2,15.4,36.66666667
+21,Dolphins,OTB,150,Shoal,0.1,3,54,2,3,,
+21,ManateeCAJ,OTB,150,Shoal,1,2,52,2,1,40.2,341.6666667
+21,MightyManatee,OTB,150,Shoal,1,2,99,2,2,,
+21,Dolphins,OTB,200,Manatee,5,2,78,3,3,29,23.33333333
+21,ManateeCAJ,OTB,200,Manatee,5,3,81,3,1,,
+21,Dolphins,OTB,200,Shoal,2,3,78,3,3,26.6,23.33333333
+21,Dolphins,OTB,250,Manatee,2,2,63,3,2,,
+21,MightyManatee,OTB,250,Manatee,2,3,67,3,2,,
+21,ManateeCAJ,OTB,250,Shoal,3,3,65,2,1,,
+21,MightyManatee,OTB,250,Shoal,2,2,67,4,2,,
+22,ManateeWed,OTB,0,Shoal,2,2,42,1,1,10.2,275
+22,SharkWed,OTB,0,Shoal,2,1,45,1,1,10.4,350
+22,ManateeWed,OTB,25,Manatee,2,1,45,1,1,,
+22,SharkWed,OTB,25,Shoal,3,2,51,2,2,,
+22,ManateeWed,OTB,50,Manatee,3,2,44,2,1,,
+22,SharkWed,OTB,50,Manatee,3,3,61,2,3,,
+22,SharkWed,OTB,50,Shoal,4,3,61,2,3,,
+22,SharkWed,OTB,75,Manatee,4,2,78,3,3,,
+22,ManateeWed,OTB,75,Turtle,5,2,71,1,3,,
+22,SharkWed,OTB,75,Turtle,4,2,78,3,3,,
+23,ManateeThursday,OTB,0,Manatee,4,2,47,4,3,18.6,146.6666667
+23,All,OTB,0,Shoal,2,3,28,3,1,22.5,200
+23,BlackPantherManatee,OTB,0,Shoal,4,2,54,4,1,,
+23,BlackPantherManatee,OTB,50,Shoal,4,2,54,4,1,,
+23,SpicyScallop,OTB,50,Shoal,3,3,41,3,3,29.2,50
+23,ZebraShark,OTB,50,Shoal,3,2,46,2,2,,
+23,SpicyScallop,OTB,100,Shoal,4,2,47,4,3,22.8,80
+23,ZebraShark,OTB,100,Shoal,4,2,40,4,3,31.4,113.3333333
+23,SpicyScallop,OTB,150,Manatee,4,3,67,3,3,,
+23,ZebraShark,OTB,150,Manatee,4,2,60,3,3,,
+23,BlackPantherManatee,OTB,200,Manatee,5,2,67,2,3,,
+23,ManateeThursday,OTB,200,Manatee,4,1,63,2,4,24,93.33333333
+23,BlackPantherManatee,OTB,250,Manatee,3,2,67,1,3,36.6,73.33333333
+23,SpicyScallop,OTB,250,Turtle,2,3,67,3,3,,
+24,SharksJM,OTB,0,Shoal,3,3,23,3,4,,
+24,SharksMK,OTB,0,Shoal,3,3,23,3,2,21.8,76.66666667
+24,SharksJM,OTB,0,Turtle,3,3,23,3,4,,
+24,SharksMK,OTB,0,Turtle,1,2,23,2,2,35,25
+24,SharksJM,OTB,50,Manatee,3,3,35,2,3,,
+24,SharksJM,OTB,50,Shoal,3,3,35,2,3,,
+24,SharksJM,OTB,50,Turtle,3,3,35,2,3,23.8,20
+24,SharksMK,OTB,50,Turtle,4,2,33,3,3,,
+24,StingraysOB,OTB,50,Turtle,4,3,30,3,3,,
+24,SharksJM,OTB,100,Manatee,2,1,36,2,3,,
+24,RedStingrays,OTB,100,Turtle,4,3,36,3,1,27.6,83.33333333
+24,SharksJM,OTB,100,Turtle,2,1,36,2,3,,
+24,SharksMK,OTB,100,Turtle,3,3,39,4,3,36.6,140
+24,RedStingrays,OTB,150,Manatee,3,3,46,3,3,36.8,143.3333333
+24,RedStingrays,OTB,200,Manatee,4,3,41,3,3,42.2,146.6666667
+24,StingraysOB,OTB,200,Manatee,3,3,44,3,3,33.8,70
+24,RedStingrays,OTB,200,Shoal,4,3,41,2,3,,
+24,SharksJM,OTB,250,Manatee,2,2,36,3,3,23.6,60
+24,SharksJM,OTB,250,Turtle,2,2,36,2,3,,
+24,SharksMK,OTB,250,Turtle,3,3,37,3,3,,
+24,StingraysOB,OTB,250,Turtle,4,2,36,3,4,,
