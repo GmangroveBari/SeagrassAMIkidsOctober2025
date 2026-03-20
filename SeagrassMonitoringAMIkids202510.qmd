@@ -130,7 +130,7 @@ ggplotly(secchi_fig)
 
 
 # create the avg depth bar chart
-depth <- read.csv("C:/Users/gmang/Documents/Gman/Ecology/AMIkids/DataWranglingAMIkids/202510-SeagrassDataAMIkidsConcatated.csv")
+depth <- read.csv("https://raw.githubusercontent.com/GmangroveBari/SeagrassOctober2025/refs/heads/main/202510-SeagrassDataAMIkidsConcatated.csv")
 
 
 #data summary and graph: day, species, and abundance
@@ -151,7 +151,7 @@ ggplotly(Depth_fig)
 #| tbl-cap: "Mean sediment scores for October 2025 sampling effort. Scores are objectively assessed  as follows: 1=Shelly sand, 2=Sand, 3=Muddy sand, 4=Mud, 5=Oysters."
 
 
-sed <- read_csv("C:/Users/gmang/Documents/Gman/Ecology/AMIkids/DataWranglingAMIkids/202510-SeagrassDataAMIkidsConcatated.csv", col_select = c(Day, SedimentType))
+sed <- read_csv("https://raw.githubusercontent.com/GmangroveBari/SeagrassOctober2025/refs/heads/main/202510-SeagrassDataAMIkidsConcatated.csv", col_select = c(Day, SedimentType))
 
 mean_sed <- sed %>%
     group_by(Day) %>%
@@ -167,7 +167,7 @@ Braun-Blanquet abundance varied both daily and within each day (@fig-BB). All th
 #| label: fig-BB
 #| fig-cap: "Braun-Blanquet Coverage at Weedon Island in October 2025."
 
-Seagrass1 <- read.csv("C:/Users/gmang/Documents/Gman/Ecology/AMIkids/DataWranglingAMIkids/202510-SeagrassDataAMIkidsConcatated.csv")
+Seagrass1 <- read.csv("https://raw.githubusercontent.com/GmangroveBari/SeagrassOctober2025/refs/heads/main/202510-SeagrassDataAMIkidsConcatated.csv")
 
 #data summary and graph: day, species, and abundance
   mean_AbApp <- Seagrass1 %>%
@@ -193,7 +193,7 @@ Overall general appearance (@tbl-means), based on characteristics such as the am
 #| label: tbl-means
 #| tbl-cap: "Overall averages for several different seagrass metrics assessed from Oct. 20-25, 2025."
 
-Table2a <- read.csv("C:/Users/gmang/Documents/Gman/Ecology/AMIkids/DataWranglingAMIkids/202510-SeagrassDataAMIkidsConcatated.csv")
+Table2a <- read.csv("https://raw.githubusercontent.com/GmangroveBari/SeagrassOctober2025/refs/heads/main/202510-SeagrassDataAMIkidsConcatated.csv")
 
 # Create a custom summary table
 
@@ -224,7 +224,7 @@ Estimates of epiphyte coverage varied widely over the week (@fig-epiphyte) but o
 #| fig-cap: "Mean epiphyte density at Weedon Island in October 2025."
 
 
-Epiphyte <- read.csv("C:/Users/gmang/Documents/Gman/Ecology/AMIkids/DataWranglingAMIkids/202510-SeagrassDataAMIkidsConcatated.csv")
+Epiphyte <- read.csv("https://raw.githubusercontent.com/GmangroveBari/SeagrassOctober2025/refs/heads/main/202510-SeagrassDataAMIkidsConcatated.csv")
 
 #plotting epiphyte data in grouped bar chart
 #data summary and graph: day, species, and abundance
