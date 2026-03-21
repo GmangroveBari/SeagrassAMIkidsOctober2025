@@ -2,6 +2,9 @@
 title: "Report: October 2025 Seagrass Monitoring Training"
 subtitle: "Prepared for: AMIkids"
 author: "Gary E. Raulerson, Ph.D."
+project:
+  type: website
+  output-dir: docs # This tells Quarto to put the output in a 'docs' folder
 format: 
   html:
     embed-resources: true
@@ -20,13 +23,13 @@ library(forcats)
 library(kableExtra)
 library(ggplot2)
 library(jsonlite)
+library(dplyr)
 library(leaflet)
 library(lubridate)
 library(plotly)
 library(tibble)
 library(tidyverse)
 library(gtsummary)
-library(dplyr)
 
 ```
 
@@ -88,7 +91,7 @@ An instructional slide show was presented and gave background information on AMI
 
 The seagrass assessment followed the quadrat protocol conducted by the Tampa Bay Estuary Program and its partners for annual transect monitoring ([TBEP 2020](https://tampabay.wateratlas.usf.edu/seagrass-monitoring/)). Before the Orlando’s Rose beached to disembark passengers, a Secchi disc measurement was taken at the bow of the ship.
 
-Upon debarkation, a group training of the [monitoring protocol](https://docs.google.com/document/d/1lNSAIABPAdRw56UiYpi_fDJnMoSk4MEQW6SEBqg8sh4/edit?usp=sharing) was provided. This included:
+Upon debarkation, the group was trained on the [seagrass monitoring protocol](https://docs.google.com/document/d/1lNSAIABPAdRw56UiYpi_fDJnMoSk4MEQW6SEBqg8sh4/edit?usp=sharing). This included:
 
 -   Depth measurement
 -   Seagrass species identification
