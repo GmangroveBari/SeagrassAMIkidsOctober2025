@@ -10,11 +10,16 @@ format:
     fig-num: true
     tab-num: true
     output-file: index.html
+    include-in-header:
+      text: |
+        <style>
+        .quarto-float-caption { text-align: left !important; }
+        #tbl-sed table { width: auto; margin: 0 auto; }
+        </style>
 editor: visual
 execute: 
   echo: false
   warning: false
-
 ---
 
 ```{r}
@@ -165,7 +170,8 @@ mean_sed <- sed %>%
 mean_sed <- mean_sed[-c(1), ]
 
 # Generate a markdown table
-knitr::kable(mean_sed, format = "html", align = "cc", digits = 1)
+knitr::kable(mean_sed, format = "html", align = "cc", digits = 1) %>%
+  kableExtra::kable_styling(full_width = FALSE, position = "left")
 
 ```
 
